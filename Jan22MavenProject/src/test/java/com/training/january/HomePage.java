@@ -25,7 +25,9 @@ public class HomePage {
 		logger = report.startTest("Launch Application");
 		System.setProperty("webdriver.chrome.driver", "ChromeDriver/chromedriver.exe");
 		WebDriver driver;
-		System.out.println("Added comment");
+		
+		
+		System.out.println("Test");
 		
 		driver = new ChromeDriver();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
