@@ -15,6 +15,7 @@ public class Intercations extends ReusableFunctions {
 		Thread.sleep(4000);
 		driver.get("https://selenium-prd.firebaseapp.com/");
 		WebElement emailUserName = driver.findElement(By.id("email_field"));
+		System.out.println("Test");
 
 		enterText(emailUserName, "admin123@gmail.com");
 		WebElement password = driver.findElement(By.id("password_field"));
